@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #151515ed;
+    color: rgb(203, 209, 209);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 3vw 0vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header{
+    margin-bottom: 2vh ;
+    font-style: oblique;
+
+}
+
+
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 65, 78);
+    width: 90vw;
+    max-width: 450px ;
+    padding: 20px;
+  border-radius: 12px;
+   box-shadow: 0px 10px 30px rgba(99, 27, 198, 0.6);
+   align-items: center;
+
+}
+
+.heroimage{
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px ; 
+    margin-bottom: 10px;
+    
+}
+
+.trailer{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 24px ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+    background-color: #bd1616;
+     color:rgb(249, 247, 245);
+     align-items: center;
+     transition: 0.3s;
+}
+.trailer:hover{
+    background-color: #600707 ;
+    transform: scale(1.05);
+}
+
+.mainline{
+    font-size: 24px; 
+    font-style: oblique;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+
+}
+
+p{
+    color: rgb(164, 179, 190);
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+
+
+.SmainCard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 65, 78);
+    width: 90vw;
+    max-width: 450px ;
+    padding: 20px;
+  border-radius: 12px;
+   box-shadow: 0px 10px 30px rgba(99, 27, 198, 0.6);
+   align-items: center;
+    
+
+  
+
+}
+
+footer{
+    background-color: rgb(34, 34, 37);
+    width: 100% ;
+    padding: 10px;
+    color: rgba(130, 110, 197, 0.725);
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
